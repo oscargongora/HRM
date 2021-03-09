@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRM.UI", "HRM.UI\HRM.UI.csproj", "{5EAC2401-4066-4264-B14B-5768A5B086F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRM.Core", "HRM.Core\HRM.Core.csproj", "{85290638-5A60-4BEA-ACEB-56573F9AC5D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRM.Infrastructure", "HRM.Infrastructure\HRM.Infrastructure.csproj", "{850554FF-0113-4587-8E38-446037A8D5B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EAC2401-4066-4264-B14B-5768A5B086F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAC2401-4066-4264-B14B-5768A5B086F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAC2401-4066-4264-B14B-5768A5B086F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAC2401-4066-4264-B14B-5768A5B086F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85290638-5A60-4BEA-ACEB-56573F9AC5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85290638-5A60-4BEA-ACEB-56573F9AC5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85290638-5A60-4BEA-ACEB-56573F9AC5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85290638-5A60-4BEA-ACEB-56573F9AC5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850554FF-0113-4587-8E38-446037A8D5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850554FF-0113-4587-8E38-446037A8D5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850554FF-0113-4587-8E38-446037A8D5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850554FF-0113-4587-8E38-446037A8D5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
