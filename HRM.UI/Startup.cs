@@ -34,16 +34,16 @@ namespace HRM.UI
         public void ConfigureServices(IServiceCollection services)
         {
             //use sql server
-            services.AddDbContext<HRMDbContext>(
-                options =>
-                    options.UseSqlServer(
-                        Configuration.GetConnectionString("DefaultConnection"),
-                        m => m.MigrationsAssembly("HRM.Infrastructure")));
+            // services.AddDbContext<HRMDbContext>(
+            //     options =>
+            //         options.UseSqlServer(
+            //             Configuration.GetConnectionString("DefaultConnection"),
+            //             m => m.MigrationsAssembly("HRM.Infrastructure")));
 
             // use sqlite
-            // services.AddDbContext<HRMDbContext>(
-            //     options => options.UseSqlite("Data Source=HRM-dev.db")
-            // );
+            services.AddDbContext<HRMDbContext>(
+                options => options.UseSqlite("Data Source=HRM-dev.db")
+            );
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             services.AddControllersWithViews();
